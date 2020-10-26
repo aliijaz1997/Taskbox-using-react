@@ -8,13 +8,7 @@ export interface props {
  const Task : FC<props> = ({task : {id, title,  state}}) => {
     return (
         <div className = "maintask">
-        <label>
-        <input type = "checkbox"  />
-        </label>
-        <div className = "title">
-        <input type="text" value={title} readOnly={true} placeholder="Input title" />
-      </div>
-      <i className="icon-star"></i>
+       
       </div>
     )
 }
