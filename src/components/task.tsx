@@ -2,8 +2,12 @@ import React, { FC } from 'react';
 import "../App.css";
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import StarIcon from '@material-ui/icons/Star';
-export interface props {
-    task : {id : string, title : string, state : any},
+
+export interface task {
+  id : string, title : string, state : any
+}
+ export interface props {
+    task : task,
     onArchiveTask : (id : string) => void,
     onPinnedTask : (id : string) => void
     

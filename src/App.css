@@ -11,5 +11,6 @@ body {
 }
 .maintask .star {
   margin-right: 5px;
+  height: 5px;
 }
 /* Compiled CSS */
