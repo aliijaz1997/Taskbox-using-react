@@ -1,7 +1,15 @@
-.maintask {
+body {
   background-color: bisque;
+}
+.maintask {
+  display: flex;
+  background-color: white;
 }
 .title {
   border: none;
-  border-color: transparent;
+  width: 800px;
 }
+.maintask .star {
+  margin-right: 5px;
+}
+/* Compiled CSS */

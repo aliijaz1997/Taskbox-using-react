@@ -18,3 +18,20 @@ DefaultTask.args = {
     }
 }
 
+export const PinnedTask = Template.bind({})
+PinnedTask.args = {
+    task : {
+        id : "1",
+        title : "Task1",
+        state : "Pinned"
+    }
+}
+
+export const ArchievedTask = Template.bind({})
+ArchievedTask.args = {
+    task : {
+        id : "1",
+        title : "Task1",
+        state : "Archieved"
+    }
+}
