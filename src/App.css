@@ -1,9 +1,13 @@
 body {
-  background-color: bisque;
+  background-color: rgb(180, 224, 191);
 }
 .maintask {
   display: flex;
   background-color: white;
+  /* margin-top: 5px; */
+  padding: 5px;
+  border: inset;
+  border-color: rgb(3, 47, 97);
 }
 .title {
   border: none;
@@ -12,5 +16,17 @@ body {
 .maintask .star {
   margin-right: 5px;
   height: 5px;
+}
+
+.Circularloadingprogress  {
+  text-align: center;
+  margin-top: 80px;
+}
+.Notask {
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(82, 55, 5);
+  font-size: 10px;
+  font-weight: bolder;
 }
 /* Compiled CSS */
