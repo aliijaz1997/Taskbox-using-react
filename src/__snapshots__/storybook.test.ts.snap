@@ -95,6 +95,1014 @@ exports[`Storyshots Task Default Task 1`] = `
 </div>
 `;
 
+exports[`Storyshots Task List Combinestates 1`] = `
+<div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task6"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task2"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task1"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task4"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task5"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={true}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task3"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task List Default 1`] = `
+<div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task 6"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task List Empty 1`] = `
+<div
+  className="Notask"
+>
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+    />
+  </svg>
+  <h3>
+    You have no task
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Task List Loading 1`] = `
+<div
+  className="Circularloadingprogress"
+>
+  <div
+    className="MuiBox-root MuiBox-root-1"
+  >
+    <div
+      aria-valuenow={10}
+      className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-static"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "transform": "rotate(-90deg)",
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleStatic"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={
+            Object {
+              "strokeDasharray": "126.920",
+              "strokeDashoffset": "114.228px",
+            }
+          }
+        />
+      </svg>
+    </div>
+    <div
+      className="MuiBox-root MuiBox-root-2"
+    >
+      <div
+        className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+      >
+        10%
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task List Withone Task Pinned 1`] = `
+<div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task6"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task1"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task2"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task3"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task4"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div
+    className="maintask"
+  >
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+    <div
+      className="title"
+    >
+      <input
+        placeholder="Input title"
+        readOnly={true}
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+        type="text"
+        value="Task5"
+      />
+    </div>
+    <div
+      className="star"
+      onClick={[Function]}
+    >
+      <a
+        onClick={[Function]}
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Task Pinned Task 1`] = `
 <div
   className="maintask"

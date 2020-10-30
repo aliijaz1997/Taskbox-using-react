@@ -3,18 +3,21 @@ import * as TaskStories from './task.stories';
 import TaskList from '../components/taskList';
 import { Story } from '@storybook/react/types-6-0';
 import {prop} from '../components/taskList';
+import {Provider} from 'react-redux';
+import store from '../ReduxStore/redux';
 export default {
     component : TaskList,
     title : "Task List",
+    decorators: [(story: () => React.ReactNode) => <Provider store = {store} ><div style={{ padding: '3rem' }}>{story()}</div></Provider>],
 }
 const Template : Story<prop> = args => <TaskList {...args} />
 
 export const Default = Template.bind({});
 
 
-export const withonetaskpinned = Template.bind({});
+export const WithoneTaskPinned = Template.bind({});
 
-withonetaskpinned.args = {
+WithoneTaskPinned.args = {
     tasks : [
         {...TaskStories.DefaultTask.args?.task, id : '6', title : "Task6", state : "Pinned"},
         {...TaskStories?.DefaultTask.args?.task, id : '1', title : "Task1", state : "Default"},
