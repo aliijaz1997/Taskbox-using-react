@@ -5,9 +5,9 @@
 import { createStore } from 'redux';
 import {task} from '../components/task';
 // The actions are the "names" of the changes that can happen to the store
-interface statetype {
-  tasks : task[]
-}
+// interface statetype {
+//   tasks : task[]
+// }
 interface actiontype {
   type : string,
   id : string
@@ -17,10 +17,10 @@ export const actions = {
   PIN_TASK: 'PIN_TASK',
 };
 const InitialTasks = [
-  { id: '1', title: 'Something', state: 'TASK_INBOX' },
-  { id: '2', title: 'Something more', state: 'TASK_INBOX' },
-  { id: '3', title: 'Something else', state: 'TASK_INBOX' },
-  { id: '4', title: 'Something again', state: 'TASK_INBOX' },
+  { id: '1', title: 'Something', state: 'Default' },
+  { id: '2', title: 'Something more', state: 'Archieved' },
+  { id: '3', title: 'Something else', state: 'Pinned' },
+  { id: '4', title: 'Something again', state: 'Default' },
 ];
 // The action creators bundle actions with the data required to execute them
 export const archiveTask = (id: string) => ({ type: actions.ARCHIVE_TASK, id });
@@ -28,10 +28,10 @@ export const pinTask = (id: string) => ({ type: actions.PIN_TASK, id });
 
 // All our reducers simply change the state of a single task.
 function taskStateReducer(taskState: string) {
-  return (state: { tasks: task[]; }, action: { id: string; }) => {
+  return (state: any , action: actiontype ) => {
     return {
       ...state,
-      tasks: state.tasks.map((task: { id: string; }) =>
+      tasks: state.tasks.map((task:task) =>
         task.id === action.id ? { ...task, state: taskState } : task
       ),
     };

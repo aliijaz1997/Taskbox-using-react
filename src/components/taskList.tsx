@@ -45,14 +45,10 @@ export function CircularStatic() {
     return <CircularProgressWithLabel value={progress} />;
 }
 export interface prop {
-    loading?: boolean;
-    tasks?: task[] | undefined;
-    onArchiveTask: (id: string) => void;
-    onPinnedTask: (id: string) => void;
+    loading?: boolean,
+    tasks?: task[] | undefined
 }
- export const TaskList: FC<prop> = ({ loading, tasks, onArchiveTask, onPinnedTask }) => {
-
-    const events = { onArchiveTask, onPinnedTask };
+ export const TaskList: FC<prop> = ({ loading, tasks}) => {
 
     if (loading) {
         return <div className="Circularloadingprogress" >
@@ -77,7 +73,7 @@ export interface prop {
     return (
         <div>
             {TaskListwithCorrectOrder?.map(respectivetasks => {
-                return <Task key={respectivetasks.id} task={respectivetasks} {...events} />
+                return <Task key={respectivetasks.id} task={respectivetasks} />
             })}
         </div>
     )
@@ -96,7 +92,7 @@ TaskList.defaultProps = {
 
 export default connect(
     ({ tasks } : any) => ({
-      tasks: tasks.filter((t : task) => t.state === 'Default' || t.state === 'Pinned'),
+      tasks: tasks.filter((t : task) => t.state === 'Default' || t.state === 'Archieved' || t.state === 'Pinned'),
     }),
     dispatch => ({
       onArchiveTask: (id : string) => dispatch(archiveTask(id)),

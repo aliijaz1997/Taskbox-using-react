@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import Task from './components/task';
-// import TaskList from './components/taskList';
+import PureInboxScreen from './components/InboxScreen';
+import { Provider } from 'react-redux';
+import store from './ReduxStore/redux';
 
 function App() {
-  return (
-    <div className="App">
-      HELLO WORLD
-    </div>
+  const error : boolean = false;
+    return (
+    <Provider store={store} >
+      <PureInboxScreen {...error} />
+    </Provider>
   );
 }
 
