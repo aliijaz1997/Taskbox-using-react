@@ -3,6 +3,7 @@ import Task, { props } from '../components/tasks/index';
 import { Story } from '@storybook/react/types-6-0';
 import { Provider } from 'react-redux';
 import store from '../ReduxStore/redux';
+// eslint-disable-next-line
 export default {
     component : Task,
     title : 'Task',

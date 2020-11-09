@@ -3,7 +3,7 @@ import "./task.css";
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import StarIcon from '@material-ui/icons/Star';
 import { useDispatch } from 'react-redux';
-// import { archiveTask, deleteTask, pinTask } from '../../ReduxStore/redux';
+import { archiveTask, deleteTask, pinTask } from '../../ReduxStore/redux';
 
 
 //********************************* */

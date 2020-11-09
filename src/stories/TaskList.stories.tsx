@@ -5,7 +5,7 @@ import { Story } from '@storybook/react/types-6-0';
 import {prop} from '../components/tasklist/index';
 import { Provider } from 'react-redux';
 import store from '../ReduxStore/redux';
-
+// eslint-disable-next-line
 export default {
     component : TaskList,
     title : "Task List",
