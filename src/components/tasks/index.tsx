@@ -24,7 +24,7 @@ export interface task {
           type="checkbox"
           defaultChecked={state === 'Archieved'}
           name="checked"
-         onClick = {() => dispatch(deleteTask(id))}
+          onClick = {() => dispatch(deleteTask(id))}
         />
         <span className="checkbox-custom" onClick={() => dispatch(archiveTask(id))} />
       </label>
