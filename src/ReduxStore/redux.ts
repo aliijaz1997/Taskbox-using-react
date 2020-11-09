@@ -13,8 +13,9 @@ interface actiontype {
   id : string
 }
 export const actions = {
-  ARCHIVE_TASK: 'ARCHIVE_TASK',
-  PIN_TASK: 'PIN_TASK',
+  ARCHIVE_TASK: 'Archieved',
+  PIN_TASK: 'Pinned',
+  DELETE_TASK : 'Delete'
 };
 const InitialTasks = [
   { id: '1', title: 'Something', state: 'Default' },
@@ -25,7 +26,7 @@ const InitialTasks = [
 // The action creators bundle actions with the data required to execute them
 export const archiveTask = (id: string) => ({ type: actions.ARCHIVE_TASK, id });
 export const pinTask = (id: string) => ({ type: actions.PIN_TASK, id });
-
+export const deleteTask = (id: string) => ({ type: actions.DELETE_TASK, id });
 // All our reducers simply change the state of a single task.
 function taskStateReducer(taskState: string) {
   return (state: any , action: actiontype ) => {
@@ -42,9 +43,11 @@ function taskStateReducer(taskState: string) {
 export const reducer = (state: any, action: actiontype) => {
   switch (action.type) {
     case actions.ARCHIVE_TASK:
-      return taskStateReducer('TASK_ARCHIVED')(state, action);
+      return taskStateReducer('Archieved')(state, action);
     case actions.PIN_TASK:
-      return taskStateReducer('TASK_PINNED')(state, action);
+      return taskStateReducer('Pinned')(state, action);
+    case actions.DELETE_TASK :
+      return taskStateReducer('Delete')(state, action);
     default:
       return state;
   }

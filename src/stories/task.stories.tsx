@@ -1,10 +1,12 @@
 import React from 'react';
 import Task, { props } from '../components/task';
 import { Story } from '@storybook/react/types-6-0';
-
+import { Provider } from 'react-redux';
+import store from '../ReduxStore/redux';
 export default {
     component : Task,
-    title : 'Task'
+    title : 'Task',
+    decorators: [(story: () => React.ReactNode) => <Provider store = {store} >{story()}</Provider>],
 }
 
 

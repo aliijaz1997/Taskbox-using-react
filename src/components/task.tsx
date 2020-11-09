@@ -3,7 +3,7 @@ import "../App.css";
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import StarIcon from '@material-ui/icons/Star';
 import { useDispatch } from 'react-redux';
-import { archiveTask, pinTask } from '../ReduxStore/redux';
+import { archiveTask, deleteTask, pinTask } from '../ReduxStore/redux';
 
 
 //********************************* */
@@ -14,15 +14,17 @@ export interface task {
     task : task,
 }
  const Task : FC<props> = ({task : {id, title,  state}}) => {
-
   const dispatch = useDispatch();
-    return (
+  console.log(dispatch);
+  
+  return (
       <div className="maintask">
       <label className="checkbox">
         <input
           type="checkbox"
           defaultChecked={state === 'Archieved'}
           name="checked"
+         onClick = {() => dispatch(deleteTask(id))}
         />
         <span className="checkbox-custom" onClick={() => dispatch(archiveTask(id))} />
       </label>
@@ -30,7 +32,7 @@ export interface task {
         <input style = {{border : "none"}} type="text" value={title} readOnly={true} placeholder="Input title" />
       </div>
 
-      <div className="star" onClick={event => event.stopPropagation()}>
+      <div className="star" >
         {state !== 'Archieved' && (
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a onClick={() => dispatch(pinTask(id))}>

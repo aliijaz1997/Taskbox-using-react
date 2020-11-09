@@ -93,9 +93,5 @@ TaskList.defaultProps = {
 export default connect(
     ({ tasks } : any) => ({
       tasks: tasks.filter((t : task) => t.state === 'Default' || t.state === 'Archieved' || t.state === 'Pinned'),
-    }),
-    dispatch => ({
-      onArchiveTask: (id : string) => dispatch(archiveTask(id)),
-      onPinTask: ( id : string) => dispatch(pinTask(id)),
     })
   )(TaskList);

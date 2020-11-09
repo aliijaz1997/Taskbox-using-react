@@ -3,10 +3,13 @@ import * as TaskStories from './task.stories';
 import {TaskList} from '../components/taskList';
 import { Story } from '@storybook/react/types-6-0';
 import {prop} from '../components/taskList';
+import { Provider } from 'react-redux';
+import store from '../ReduxStore/redux';
+
 export default {
     component : TaskList,
     title : "Task List",
-    decorators: [(story: () => React.ReactNode) => <div>{story()}</div>],
+    decorators: [(story: () => React.ReactNode) => <Provider store = {store} >{story()}</Provider>],
 }
 const Template : Story<prop> = args => <TaskList {...args} />
 
