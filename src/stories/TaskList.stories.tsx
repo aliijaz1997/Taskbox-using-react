@@ -1,8 +1,8 @@
 import React from 'react';
 import * as TaskStories from './task.stories';
-import {TaskList} from '../components/taskList';
+import {TaskList} from '../components/tasklist/index';
 import { Story } from '@storybook/react/types-6-0';
-import {prop} from '../components/taskList';
+import {prop} from '../components/tasklist/index';
 import { Provider } from 'react-redux';
 import store from '../ReduxStore/redux';
 

@@ -65,7 +65,9 @@
     "react-test-renderer": "^17.0.1"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.21"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
   }

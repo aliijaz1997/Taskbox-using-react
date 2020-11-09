@@ -1,13 +1,12 @@
 import React from 'react';
 import { FC } from 'react';
-import Task from './task';
-import { task } from '../components/task';
+import Task from '../tasks/index';
+import { task } from '../tasks/index';
 import CircularProgress, { CircularProgressProps } from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import { connect } from 'react-redux';
-import { archiveTask, pinTask } from '../ReduxStore/redux';
 function CircularProgressWithLabel(props: CircularProgressProps & { value: number }) {
     return (
         <Box position="relative" display="inline-flex">
